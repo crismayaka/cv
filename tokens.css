@@ -1,0 +1,39 @@
+/* Hallmark tokens — Newsprint (editorial) · Long Document · nav N9 · footer Ft6 */
+:root {
+  /* color — OKLCH, warm paper, rust accent */
+  --color-paper:    oklch(96.5% 0.012 80);
+  --color-paper-2:  oklch(93% 0.014 80);
+  --color-rule:     oklch(83% 0.012 80);
+  --color-neutral:  oklch(58% 0.010 70);
+  --color-muted:    oklch(44% 0.012 55);
+  --color-ink:      oklch(21% 0.014 45);
+  --color-accent:   oklch(46% 0.13 30);
+  --color-focus:    oklch(52% 0.15 45);
+
+  /* type */
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.9531rem;
+  --text-display: clamp(2rem, 4vw + 1rem, 3.25rem);
+
+  /* space — 4pt scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 120ms;
+  --dur-short: 200ms;
+}

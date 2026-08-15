@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kris Mayaka — Product &amp; Technology Leader</title>
+<meta name="description" content="Kris Mayaka — product and technology leader, AI-native builder, solo founder. 30+ years across fintech, healthcare, SaaS, and marketplaces. Available for direct-hire engagements." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+/* Hallmark · genre: editorial · macrostructure: Long Document · theme: Newsprint
+ * tone: editorial · anchor hue: rust (30°) · nav: N9 · footer: Ft6 · enrichment: none
+ * pre-emit critique: P5 H4 E5 S4 R5 V5
+ */
+:root {
+  /* color — OKLCH, warm paper, rust accent */
+  --color-paper:    oklch(96.5% 0.012 80);
+  --color-paper-2:  oklch(93% 0.014 80);
+  --color-rule:     oklch(83% 0.012 80);
+  --color-neutral:  oklch(58% 0.010 70);
+  --color-muted:    oklch(44% 0.012 55);
+  --color-ink:      oklch(21% 0.014 45);
+  --color-accent:   oklch(46% 0.13 30);
+  --color-focus:    oklch(52% 0.15 45);
+
+  /* type */
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.9531rem;
+  --text-display: clamp(2rem, 4vw + 1rem, 3.25rem);
+
+  /* space — 4pt scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 120ms;
+  --dur-short: 200ms;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  overflow-x: clip;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---- N9 · edge-aligned minimal nav ---- */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: var(--space-lg) clamp(1rem, 4vw, 1.5rem);
+  border-bottom: 1px solid var(--color-rule);
+}
+.nav__wordmark {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+.nav__cta {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--text-sm);
+  color: var(--color-ink);
+  white-space: nowrap;
+  border-bottom: 1px solid var(--color-rule);
+  text-decoration: none;
+  transition: color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+.nav__cta:hover { color: var(--color-accent); border-color: var(--color-accent); }
+.nav__cta:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
+.nav__cta:active { color: var(--color-accent); }
+
+/* ---- document column ---- */
+.doc {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: var(--space-3xl) clamp(1rem, 4vw, 1.5rem) var(--space-3xl);
+}
+
+.doc-head { margin-bottom: var(--space-2xl); }
+
+.doc-byline {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+  margin: 0 0 var(--space-md);
+}
+
+.doc-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-display);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-lg);
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+.lede {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--text-lg);
+  line-height: 1.5;
+  color: var(--color-ink);
+  margin: 0;
+  max-width: 60ch;
+}
+
+.prose p {
+  margin: 0 0 var(--space-lg);
+  color: var(--color-ink);
+}
+
+/* ---- inline section heads (small caps, no eyebrow) ---- */
+.h-inline {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.1em;
+  font-size: var(--text-sm);
+  color: var(--color-ink);
+  margin: var(--space-2xl) 0 var(--space-sm);
+}
+
+/* ---- selected work — typographic list, hairline rules ---- */
+.work { list-style: none; margin: var(--space-md) 0 var(--space-xl); padding: 0; }
+.work li {
+  padding: var(--space-md) 0;
+  border-top: 1px solid var(--color-rule);
+}
+.work li:last-child { border-bottom: 1px solid var(--color-rule); }
+.work__name {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-md);
+  color: var(--color-ink);
+  margin: 0;
+}
+.work__meta {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  margin: var(--space-2xs) 0 0;
+}
+
+/* ---- links + CTA (typographic) ---- */
+a.link {
+  color: var(--color-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-accent);
+  transition: color var(--dur-short) var(--ease-out);
+}
+a.link:hover { color: var(--color-accent); }
+a.link:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
+a.link:active { color: var(--color-accent); }
+
+/* ---- closing ---- */
+.closing {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+}
+.closing p { margin: 0 0 var(--space-sm); }
+.closing .contact {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+/* ---- Ft6 · letter close footer ---- */
+.footer {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: var(--space-2xl) clamp(1rem, 4vw, 1.5rem) var(--space-3xl);
+}
+.footer__signoff {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  color: var(--color-ink);
+  margin: 0 0 var(--space-xs);
+}
+.footer__ps {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  margin: 0;
+}
+
+@media (max-width: 40rem) {
+  .doc { padding-top: var(--space-2xl); }
+  .doc-title { font-size: clamp(1.75rem, 8vw, 2.25rem); }
+  .lede { font-size: var(--text-md); }
+  .nav__cta { font-size: var(--text-xs); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary">
+  <span class="nav__wordmark">Kris Mayaka</span>
+  <a class="nav__cta" href="#contact">Book a diagnostic →</a>
+</nav>
+
+<main class="doc">
+  <header class="doc-head">
+    <p class="doc-byline">Product &amp; Technology Leader · AI-Native Builder · Solo Founder · United States</p>
+    <h1 class="doc-title">Intelligence, made into product.</h1>
+    <p class="lede">I&rsquo;m Kris Mayaka — a technology executive and solo founder with 30+ years across enterprise software, fintech, healthcare, and consumer marketplaces. Today I build HuntLoop, an AI-powered marketplace for solo hunters and outdoor users, and I&rsquo;m available for direct-hire, embedded, and fractional engagements.</p>
+  </header>
+
+  <div class="prose">
+    <h2 class="h-inline">Who I am</h2>
+    <p>I started as a software engineer in the mid-1990s and grew through product and transformation leadership across fintech, healthcare, SaaS, and consumer marketplaces. One conviction carried through: domain knowledge and engineering have to sit in the same room. That&rsquo;s what I do now with agent-first architecture — a small team&rsquo;s worth of output from a solo operator, without losing the compliance and safety discipline the work demands.</p>
+
+    <h2 class="h-inline">What I do</h2>
+    <p>Four things, run end to end. <strong>Strategy &amp; intelligence</strong> — research, positioning, go-to-market, and revenue-model design. <strong>Product &amp; delivery</strong> — zero-to-one builds, from MVP to live users. <strong>Design &amp; build</strong> — research, design, development, QA, analytics, content. <strong>AI-native operations</strong> — agent orchestration, and model-and-tool routing. Across outdoor, fintech, and retail.</p>
+
+    <h2 class="h-inline">Selected work</h2>
+    <p>What follows is a short index — the projects I&rsquo;ve built and the ones running now.</p>
+    <ul class="work">
+      <li>
+        <p class="work__name">HuntLoop</p>
+        <p class="work__meta">Outdoor · AI marketplace — solo-hunter gear, land access, safety; built solo, agent-first.</p>
+      </li>
+      <li>
+        <p class="work__name">ScaleTech Solutions</p>
+        <p class="work__meta">Vertical SaaS · VP Product — ARR $8M → $45M.</p>
+      </li>
+      <li>
+        <p class="work__name">FinGrow Financial</p>
+        <p class="work__meta">Fintech lending · Director — legacy-to-marketplace, +180% origination.</p>
+      </li>
+      <li>
+        <p class="work__name">HealthLink Networks</p>
+        <p class="work__meta">Healthcare · Head of Product — two-sided marketplace 0 → 1.2M MAU.</p>
+      </li>
+    </ul>
+
+    <h2 class="h-inline">How I work</h2>
+    <p>I run agent-first: Universal Handoff Protocols turn high-level intent into production features through a decentralized digital workforce, grounded by a living LLM knowledge base of the domain. And I price by the outcome, not the hour — I sell the think, not the build.</p>
+  </div>
+
+  <section class="closing" id="contact">
+    <p>If you&rsquo;re weighing a direct hire — embedded or fractional — the next step is a thirty-minute diagnostic. <a class="link" href="#contact">Book a diagnostic →</a></p>
+    <p class="contact">⟪ email ⟫ · ⟪ phone ⟫ · ⟪ LinkedIn / GitHub ⟫</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p class="footer__signoff">Yours, Kris Mayaka · 2026</p>
+  <p class="footer__ps">United States · serving clients worldwide.</p>
+</footer>
+
+</body>
+</html>
