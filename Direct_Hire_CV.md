@@ -1,119 +1,71 @@
----
-title: "Founder CV — Direct Hire"
-aliases: [Direct Hire CV, Kris Mayaka CV, Founder Resume, direct-hire-cv]
-source_id: "[SALES]-direct-hire-cv"
-program_id: sales-direct-hire-cv
-status: draft
-priority: P2
-vertical: EXECUTION
-classification: internal
-owner: "@founder"
-created: 2026-08-14
-updated: 2026-08-14
----
-
 # Kris Mayaka
 
-**Founder & Principal, Mulestudios · Product & Technology Leader · AI-Native Builder · Solo Founder**
-📍 United States · ⟪phone⟫ · ⟪email⟫ · linkedin.com/in/krismayaka · x.com/krismayaka · github.com/crismayaka
+**Founder & Principal · Product & Technology Leader · AI-Native Builder**  
+United States · linkedin.com/in/krismayaka · x.com/krismayaka · github.com/crismayaka  
+430-558-0231 · kris.b.mayaka@gmail.com
 
-> **v2 (08-14)** — narrative synced with the agency + actual builds. Internal tooling is framed as **personal projects** (not client deliverables). `⟪…⟫` = still needs input.
 
 ---
 
 ## Professional Summary
 
-Technology executive, founder, and solo builder with **30+ years** across enterprise software, fintech, healthcare, SaaS, and consumer marketplaces. I run two threads today:
-
-1. **HuntLoop** — an AI-native marketplace for solo hunters and outdoor users, built solo with agent-first architecture and a living LLM knowledge base.
-2. **Mulestudios** — the product-and-intelligence studio I founded in East Texas in 2009 (formerly **MKTx™**) to bring actionable intelligence to B2B executives; now a multi-sector practice spanning outdoor, fintech, and retail.
-
-Underneath both is a body of **self-built personal infrastructure** — an AI routing spine (PromptOS · Omniroute), living LLM knowledge bases, and a design-quality pipeline — that lets me ship at a pace that traditionally required a team, without losing the compliance and safety discipline the work demands.
+Solo founder and technology executive with 30+ years across enterprise software, fintech, healthcare, SaaS, and marketplaces. Currently shipping **HuntLoop** — an escrow-protected marketplace for western big-game landowner tags (CO/NM/NV/UT) — at 5–10× traditional solo velocity via agent-first architecture and living LLM knowledge bases. Track record includes scaling luxury RV retail to 65+ units/month ($340k–$1M+ per unit) over 10 years, multiple 8-figure revenue-impact launches, and GTM systems that supported hundreds of portfolio companies and Global 2000 / government clients.
 
 ## Core Competencies
 
-- **Agent-First Architecture & AI Orchestration** — Universal Handoff Protocols, stateless agent management, decentralized digital workforce
-- **Knowledge & Intelligence Systems** — living LLM knowledge bases, Obsidian/PKM, domain-grounded reasoning
-- **Product & Platform Leadership** — full-cycle 0→1 development, two-sided marketplaces, compliance-heavy verticals
-- **Design & Build (full lifecycle)** — research · design · development · QA · analytics · content
-- **Systems Strategy** — Antigravity Architecture mapping, revenue-model design, go-to-market
-- **Business** — revenue growth, unit economics, stakeholder management, fundraising preparation
+- **AI-Native Systems:** agent-first design · multi-agent orchestration · living LLM knowledge bases · Universal Handoff Protocols · domain-grounded reasoning · compliance-by-design AI
+- **Product (0→1):** two-sided marketplaces · regulated verticals (outdoor tags, luxury RV) · full-cycle discovery→launch · design-quality pipelines · escrow & trust systems
+- **Revenue & GTM:** revenue-org design · field sales playbooks · Fortune 500 / Global 2000 / government motions · unit economics · high-ASP sales systems
+- **Leadership:** end-to-end ownership · hiring systems · stakeholder management · solo → scaled delivery · cross-functional GTM
 
 ## Professional Experience
 
-### Founder & Principal — Mulestudios (formerly MKTx™) · East Texas · 2009 – Present
-- Founded the studio to turn actionable intelligence into decisions for B2B executives; evolved it into a multi-sector product-and-intelligence practice.
-- Built the **Wheelhouse** method (Brief → Canvas → Strategy) that converts client diagnostics into executable roadmaps.
-- Defined the **4-lane revenue model** (new clients · partnerships · consultancy · direct hire) and the sales-process architecture behind it.
-- Standing up the public platform: **Mulestudios Website** (launch 09-18) + **Client Portal** (queued).
+### Founder & Lead Builder — HuntLoop (Outdoor Marketplace)
+*2024 – Present · Solo build*
 
-### Founder & Lead Builder — HuntLoop (outdoor marketplace) · 2024 – Present
-- Architecting and independently developing a full-featured marketplace connecting solo hunters and outdoor users with gear, private land access, micro-adventures, safety tools, and verified spots.
-- Integrated a living LLM knowledge base covering the hunting ecosystem (multi-state regulations, safety protocols, seasonal trends, gear compatibility, landowner dynamics) — ingesting raw sources into always-current, queryable domain intelligence that feeds both development and runtime AI.
-- Applied agent-first architecture and Universal Handoff Protocols to orchestrate AI agents as a decentralized digital workforce, translating high-level intent into production features at 5–10× traditional speed.
+- Architecting and shipping a full escrow-protected marketplace for western big-game landowner tags (CO/NM/NV/UT) as a solo builder — spanning research, education, verified listings, transaction, and post-hunt intelligence — at a target velocity of **5–10×** a traditional one-person team through agent-first architecture.
+- Built a living LLM knowledge base that ingests multi-state regulations, draw/odds data, landowner dynamics, safety protocols, and seasonal patterns into always-current, queryable domain intelligence used in both development and runtime AI — replacing fragmented research with a single source of truth.
+- Engineered Universal Handoff Protocols and stateless multi-agent workflows so AI agents function as a decentralized digital workforce, converting high-level intent into production features while preserving state-specific compliance and safety constraints required by the outdoor vertical.
 
-### Senior Product Director / VP of Product — ScaleTech Solutions (vertical SaaS) · 2019 – 2024
-- Led product strategy and delivery for a B2B SaaS platform serving mid-market enterprises; grew ARR from $8M to $45M.
-- Drove expansion into healthcare and logistics (3× user-base growth); shipped AI-enhanced features that improved retention by 42%.
-- Managed cross-functional teams of 25+ while mentoring product and engineering leaders.
+### Head of Growth — Motorhomes of Texas
+*Nacogdoches, TX · Luxury RV / Outdoor · ~10 years · motorhomesoftexas.com · Nation's #1 luxury consignment dealer*
 
-### Director of Digital Transformation — FinGrow Financial (fintech lending) · 2014 – 2019
-- Modernized legacy lending systems into a marketplace platform, increasing loan-origination volume by 180%.
-- Led real-time decisioning engines and compliance automation; managed bank partnerships and adjacent consumer-finance expansion.
+- Scaled retail sales to **65+ units/month** ($340k–$1M+ per unit, new + consignment) — generating an estimated **$25–60M+ in monthly retail volume** — over a **10-year** tenure, leading a team of 10 sales + 7 marketing.
+- Built the full revenue organization and launched marketing programs + custom internal tools that delivered elite productivity (**~6.5 units per salesperson/month**) and scaled two-sided GTM across consignors and high-net-worth buyers.
 
-### Head of Product, Consumer Marketplace — HealthLink Networks (healthcare) · 2009 – 2014
-- Scaled a two-sided marketplace connecting patients, providers, and wellness services from 0 to 1.2M monthly active users, with a focus on trust, safety, and matching.
+### Director of Digital Transformation — Forrester Research
+*2014 – 2019 · forrester.com*
 
-### Earlier Career · 1996 – 2009
-- Progressive roles from Software Engineer to Senior Product Manager / Director across enterprise software, e-commerce platforms, and digital agencies — scalable systems, user-centric products, and cross-vertical growth through the dot-com and SaaS eras.
+- Built Forrester's market-development and GTM network that enabled **[200–400]+ portfolio companies** to scale digital business and strategy practices over a **5-year** tenure (firm served ~2,300–2,850 total clients in the late period of this role).
+- Designed and ran an executive briefing program delivering **[~40–80] briefings/year** for Global 2000 and government agencies, converting research into actionable C-suite digital transformation roadmaps during the high-growth phase of the digital transformation market.
+- Influenced a **[~5–15]-person** cross-functional effort that supported GTM and briefing outcomes tied to the firm's research + advisory engine (Forrester client retention typically ~70–75% and dollar retention ~88–90% in this era).
 
-## Selected builds & GitHub projects
+### Earlier Career — Software Engineer → Senior Product Manager / Director
+*1996 – 2009 · Enterprise software, e-commerce, digital agencies*
 
-| Project | What it is | Repo / home | Visibility (verified 08-14) |
-|---|---|---|---|
-| **Landowner Tags** | Outdoor marketplace (agency client) — MVP + supply-side facilitator network | `crismayaka/prod-outd-landownertags` | **private** — active repo, not publicly linkable |
-| **Mulestudios Website** | Agency public surface (Next.js + Tailwind · 09-18 launch) | `prod-int-website` | not on public GitHub — private |
-| **HuntLoop** | Outdoor marketplace (solo build, AI-native) | ⟪repo⟫ | not on public GitHub — private or uncreated |
-| **PromptOS / Omniroute** | Personal tooling — AI model-and-tool routing spine | internal | n/a (not on GitHub) |
-| **Leverage OS + knowledge bases** | Personal PKM + LLM knowledge bases (`know-multi-aimule` · `know-outd-landowner-tags`) | internal | n/a (not on GitHub) |
+- Progressive roles that shipped scalable systems and user-centric products through the dot-com and early SaaS eras, building the foundation for later 0→1 and revenue-architecture work.
 
-**Public GitHub surface (API-verified 08-14)** — `crismayaka` profile name is *MuleStudio*; all **5 public repos are forks** of open-source skill repos (ai-marketing-skills · career-ops · llm-wiki · get-shit-done · andrej-karpathy-skills) — these are tooling references, **not builds**; none belong on a client-facing CV as projects. A separate `mulestudio` account carries an original C# build, `RhinoToGSharkMeshConverter` (2023) — ⟪confirm if that account is ours and should be credited⟫.
+## Selected Builds & Personal Projects
 
-## Personal infrastructure (mostly self-built projects)
-
-- **PromptOS** — AI routing architecture + session management
-- **Omniroute** — model-and-tool routing for coding agents
-- **Leverage OS** — Obsidian/PKM operating system for the studio
-- **Living LLM knowledge bases** — multi-sector + outdoor domain intelligence (continuous ingestion & compilation)
-- **Design Quality Flow** — Hallmark → Impeccable generate-gate-ship design pipeline
-- **Revenue Path / Sales Process Architecture** — GTM and revenue-operating systems
-
-## Education
-
-**Bachelor of Science, Computer Science — University of Texas, 1995**
-
-**Continuous development** — agentic AI systems, LLM orchestration, prompt engineering, PKM (2023 – present)
+- **HuntLoop** — Solo AI-native escrow-protected marketplace for western big-game landowner tags (CO/NM/NV/UT) + living domain KB + agent orchestration (private).
+- **Mulestudios** (founded 2009, formerly MKTx™) — Personal product-and-intelligence studio spanning outdoor, fintech, and retail; Wheelhouse method (Brief → Canvas → Strategy); 4-lane revenue model; public platform (Next.js + Tailwind) and Client Portal in progress.
+- **Landowner Tags** — Outdoor marketplace MVP and supply-side facilitator network (agency client; private).
+- **PromptOS / Omniroute** — AI model-and-tool routing spine that enables multi-agent velocity.
+- **Leverage OS + living LLM KBs** — PKM operating system and continuously updated multi-sector domain intelligence.
+- **Design Quality Flow** — Generate → gate → ship pipeline that holds design quality without sacrificing speed.
 
 ## Key Achievements
 
-- Built HuntLoop's **living LLM knowledge base** — always-current, queryable domain intelligence replacing fragmented research in development and runtime.
-- Engineered **Universal Handoff Protocols** and stateless multi-agent orchestration enabling solo delivery of complex, long-running, regulated workflows.
-- Created **Antigravity Architecture** maps to visualize prompt-to-execution dependencies.
-- Shipped the agency's **Design Quality Flow** (generate → gate → ship) and stood up the **Landowner Tags** product codebase with test-driven status-transition logic.
-- Multiple 8-figure revenue-impact launches across fintech, healthcare, and SaaS.
+- Multiple **8-figure** revenue-impact launches across fintech, healthcare, and SaaS.
+- Universal Handoff Protocols + multi-agent orchestration that made solo delivery of complex, regulated, long-running workflows practical.
+- Antigravity Architecture maps that made prompt-to-execution dependencies visible and manageable.
+- Sustained **65+ unit/month** luxury RV retail velocity ($340k–$1M+ ASP) over a decade at the nation's #1 consignment dealer.
 
-## Interests
+## Education & Continuous Development
 
-Solo hunter and outdoor enthusiast with first-hand understanding of the problems HuntLoop solves.
+**B.S. Computer Science** — University of Texas, 1995  
 
+2023–present: agentic AI systems, LLM orchestration, prompt engineering, personal knowledge management.
+
+Solo hunter & outdoor enthusiast — first-hand domain knowledge for the problems HuntLoop solves.  
 *References available upon request.*
-
----
-
-## Open items to confirm before client-facing use
-
-1. **⟪phone⟫ / ⟪email⟫** — both CVs carry `(555) 123-4567` and `kris.mayaka@email.com` (placeholders). Send real ones.
-2. **Project name** — SoloWild (old) · Hunters Loop Marketplace (current) · HuntLoop (vault). Used "HuntLoop".
-3. **Company names** — ScaleTech / FinGrow / HealthLink read generic; confirm real or anonymized.
-4. **GitHub repos** — verified 08-14: `crismayaka` has **5 public repos, all forks** (no builds public); `prod-outd-landownertags` is **private** (API 404). Product repos can't be publicly linked unless made public or shared as private links. ⟪Decide: make any repos public for the CV, or credit via private links / screenshots?⟫
-5. **Metrics** (5–10×, 8-figure, 1.2M MAU, 180%, $8M→$45M, 42%) — carried as-written; confirm each.

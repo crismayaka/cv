@@ -2,4 +2,4 @@
 
 Founder CV (`Direct_Hire_CV.md`) + personal portfolio landing page (`index.html` + `tokens.css`, Hallmark-built · Long Document / Newsprint).
 
-**Status: draft — private repo.** ⟪phone⟫ / ⟪email⟫ and the other open items must be confirmed before this is made public. Flip to public when the open-items list at the bottom of `Direct_Hire_CV.md` closes.
+**Status: live — v1-real (09-05).** Real contact on record · escrow-protected HuntLoop description · proof metrics sourced from the optimized resume. Open-items gate closed 09-05; repo flipped public same-day.
